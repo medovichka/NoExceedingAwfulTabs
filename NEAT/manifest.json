@@ -8,12 +8,15 @@
         "48": "design/icon-48.png",
         "128": "design/icon-128.png"
     },
-    "content_srcipts": [
+    "content_scripts": [
         {
-            "js":"neat.js",
-            "matches": "http://*.*.*//",
+            "js": [
+                "neat.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ],
             "run_at": "document_start"
         }
-    ],
-    "permissions": ["management", "tabs"]
+    ]
 }
