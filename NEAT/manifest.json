@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "No Exceeding Awful Tabs",
+    "version": "0.0.2",
+    "version_name": "development",
+    "description": "A Google Chrome extension that opens links in the original page rather than in a new tab.",
+    "icons": {
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    },
+    "content_srcipts": [
+        {
+            "js":"neat.js",
+            "matches": "http://*.*.*//",
+            "run_at": "document_start"
+        }
+    ],
+    "permissions": ["management", "tabs"]
+}
