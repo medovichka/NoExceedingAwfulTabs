@@ -30,7 +30,7 @@ Im tired of ending up with 3+ open tabs after a simple tab serfing
 ## Installation
 Works on **Google Chrome** maybe any other Chromium-based browser.
 
-1. Click the green **Code** button at the top of this repository and select **Download ZIP** or [click here to download](https://github.com/your-username/no-exceeding-awful-tabs/archive/refs/heads/main.zip).
+1. Download release or [click here to download release]([https://github.com/your-username/no-exceeding-awful-tabs/archive/refs/heads/main.zip](https://github.com/medovichka/NoExceedingAwfulTabs/archive/refs/tags/release.zip)).
 2. Unpack the downloaded archive to any permanent folder on your PC.
 3. Go to chrome://extensions/ and select load unpacked extension, select folder "NEAT" from extracted archive.
 4. Do not delete or move this folder after installation. If you delete it, the extension will stop working.
